@@ -49,6 +49,5 @@ func main() {
 		fmt.Println("Erro ao obter container:", err)
 		return
 	}
-
 	fmt.Println("Seu comando", AWS.GetConnectionCommand(cluster, task, container))
 }
